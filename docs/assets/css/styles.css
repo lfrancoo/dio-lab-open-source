@@ -24,10 +24,12 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 
+html {
     scrollbar-width: thin;
-    scrollbar-color: var(--gray-300) transparent; 
-} 
+    scrollbar-color: var(--gray-300) transparent;
+}
 
 ::-webkit-scrollbar {
     width: 0.4rem;
@@ -46,7 +48,7 @@ body {
     font-family: 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--black);
     background: var(--gray-100);
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
 }
 
